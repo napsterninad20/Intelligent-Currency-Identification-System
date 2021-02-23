@@ -35,6 +35,18 @@ consistent.
 <img src="P1.png" width="300" height="300">
 Above images the final preprocessed image.
 
+## Model Evaluation and Results
+**1) SGD Classifier:** The accuracy results of 3 fold cross validation which is applied on the model trained using SGD Classifier.
+3 fold cross validation was used with an objective to address over fitting and to make our model more robust. The model had maximum accuracy of **81.62%**.
+
+**2) Ensemble Learning Algorithm:** Evaluation results of all three models that is SGD Classifier, Random Forest Classifier and Ensemble Learning algorithm. In our case SGD Classifier worked best which had an accuracy of approximately **80.45%**
+
+**3) CNN Deep Learning Model:** the results of the convolutional neural network which has been set to train the data for 10 epoch. Looking at the final epoch results we got accuracy on Training Data – **93.89%**, Accuracy on Validation Data - **90.27%**, and Accuracy on Test Data – **81.28%**.
+
+#### Graphical Evaluation
+
+
+
 
 
 
