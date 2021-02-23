@@ -17,15 +17,15 @@ Divided our project into two categories.
 1) Machine Learning model.
 2) Deep learning model.
 
-#### We followed following steps for data pre-processing.
-1) Machine Learning model.
+Applied following steps for data pre-processing.
+#### 1) Machine Learning model.
 - Imported each image and stored its pixel value in the arrays.
 - Resized each image in the resolution of 148 X 148 in order to make all images
 consistent.
 - Converted all images to grayscale in order to reduce time during training and
 increase consistency in the dataset.
 
-2) Deep learning Model
+#### 2) Deep learning Model
 - Imported each image and stored its pixel value in the arrays.
 - Resized each image in the resolution of 148 X 148 in order to make all images
 consistent.
