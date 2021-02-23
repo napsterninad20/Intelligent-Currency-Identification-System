@@ -32,6 +32,8 @@ consistent.
 - Converted all images to grayscale in order to reduce time during training and increase consistency in the dataset.
 - Augmented each image by rescaling it, flipping it horizontally and rotating it in range of 20. The main purpose of doing this is to add diversity to the dataset and to scale dataset in order to avoid over fitting in the model.
 
+<img src="images/P1.jpg" width="500" height="500">
+
 
 
 
