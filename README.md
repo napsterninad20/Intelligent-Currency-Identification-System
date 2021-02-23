@@ -44,7 +44,11 @@ Above images the final preprocessed image.
 **3) CNN Deep Learning Model:** the results of the convolutional neural network which has been set to train the data for 10 epoch. Looking at the final epoch results we got accuracy on Training Data – **93.89%**, Accuracy on Validation Data - **90.27%**, and Accuracy on Test Data – **81.28%**.
 
 #### Graphical Evaluation
+<img src="P2.png" width="600" height="300">
+The above figure plots training accuracy, validation accuracy, training loss and validation loss across each epoch. From the above figure it can be colcluded that training accuracy and validation accuracy increases through the epochs. There is not much difference between training accuracy and validation accuracy which shows that the model and not Overfitting.
 
+<img src="P3.png" width="600" height="300">
+The above figure plots training loss and validation loss across each epoch. From the above figure it can be colcluded that training loss and validation loss decreases through each epochs. There is not much difference between training loss and validation loss which shows that the model is training effectively.
 
 
 
