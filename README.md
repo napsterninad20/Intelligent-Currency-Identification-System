@@ -18,19 +18,22 @@ Divided our project into two categories.
 2) Deep learning model.
 
 #### We followed following steps for data pre-processing.
-- Machine Learning model.
-1) Imported each image and stored its pixel value in the arrays.
-2) Resized each image in the resolution of 148 X 148 in order to make all images
+1) Machine Learning model.
+- Imported each image and stored its pixel value in the arrays.
+- Resized each image in the resolution of 148 X 148 in order to make all images
 consistent.
-3) Converted all images to grayscale in order to reduce time during training and
+- Converted all images to grayscale in order to reduce time during training and
 increase consistency in the dataset.
 
-- Deep learning Model
-1) Imported each image and stored its pixel value in the arrays.
-2) Resized each image in the resolution of 148 X 148 in order to make all images
+2) Deep learning Model
+- Imported each image and stored its pixel value in the arrays.
+- Resized each image in the resolution of 148 X 148 in order to make all images
 consistent.
-3) Converted all images to grayscale in order to reduce time during training and increase consistency in the dataset.
-4) Augmented each image by rescaling it, flipping it horizontally and rotating it in range of 20. The main purpose of doing this is to add diversity to the dataset and to scale dataset in order to avoid over fitting in the model.
+- Converted all images to grayscale in order to reduce time during training and increase consistency in the dataset.
+- Augmented each image by rescaling it, flipping it horizontally and rotating it in range of 20. The main purpose of doing this is to add diversity to the dataset and to scale dataset in order to avoid over fitting in the model.
+
+
+
 
 
 
